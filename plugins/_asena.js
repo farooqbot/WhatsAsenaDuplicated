@@ -63,7 +63,7 @@ if (Config.WORKTYPE == 'private') {
                 }
             );
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Farooq-BOT private* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *WhatsFarooq private* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
             var CMD_HELP = '';
@@ -116,7 +116,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Farooq-BOT🤖* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *WhatsFarooq private* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
@@ -171,7 +171,7 @@ else if (Config.WORKTYPE == 'public') {
                 }
             );
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Farooq-BOT🤖* ▬▬▬●\n\n' + CMD_HELP, MessageType.text ,{quoted: message.data}
+                message.jid,'●▬▬▬ *WhatsFarooq public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text ,{quoted: message.data}
             );    
         } else {
             var CMD_HELP = '';
@@ -224,7 +224,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Farooq-BOT🤖* ▬▬▬●\n\n' + CMD_HELP, MessageType.text ,{quoted: message.data}
+                message.jid,'●▬▬▬ *WhatsFarooq public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text ,{quoted: message.data}
             );
         }
     }));
