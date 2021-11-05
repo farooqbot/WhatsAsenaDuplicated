@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *W5-BOT*:  ```" + msg + "```"
+    return "✅ *Farooq-BOT*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *W5-BOT*:  ```" + msg + "```"
+    return "🛑 *Farooq-BOT*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "🐱 *W5-BOT*:  ```" + msg + "```"
+    return "🤖 *Farooq-BOT*:  ```" + msg + "```"
 }
 
 
