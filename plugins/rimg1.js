@@ -1,6 +1,4 @@
-/* Codded by @WH173-5P1D3R
-Telegram: t.me/WH173-5P1D3R
-Instagram: https://instagram.com/wh173_5p1d3r_official
+/* Codded by Farooq
 Special Thanks:
 @Phaticusthiccy for Unlimitted Helps
 */
@@ -27,7 +25,7 @@ if (Config.WORKTYPE == 'private') {
     
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, quoted: message.data, caption: '*_🐱W5-BOT🤖*_'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, quoted: message.data, caption: 'Made by WhatsFarooq'})
 
     }));
 }
@@ -46,7 +44,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, quoted: message.data, caption: '_*🐱W5-BOT🤖*_'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, quoted: message.data, caption: 'Made by WhatsFarooq'})
 
     }));
 }  
